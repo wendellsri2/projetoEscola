@@ -1,5 +1,5 @@
 $(document).ready(function(){
-       
+       console.log("aqui")
        $('#select').on('change',function(){
               
               var selectValor = '#'+$(this).val();

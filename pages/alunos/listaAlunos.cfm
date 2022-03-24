@@ -1,6 +1,7 @@
 <!--- caminho do css --->
 <cfoutput>
     <link rel="stylesheet" type="text/css" href="#application.layout.css#/tabelas.css">
+    <script src="#application.layout.js#/buscarListaAluno.js"></script>
 </cfoutput> 
 <main>            
     <section class="container">

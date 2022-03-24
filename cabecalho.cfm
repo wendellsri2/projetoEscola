@@ -41,10 +41,7 @@
         
         <cfoutput>
             <script src="#application.layout.js#/validacao.js"></script>
-            <script src="#application.layout.js#/calendario.js"></script>
-            <script src="#application.layout.js#/buscar.js"></script>
-            <script src="#application.layout.js#/listarAlunos.js"></script>
-
+            <script src="#application.layout.js#/calendario.js"></script>            
         </cfoutput>
         <!--- aqui termina o javaScript --->
         
