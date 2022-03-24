@@ -69,7 +69,8 @@
                                 <li><a class="nav-link active" aria-current="page" href="#application.nomeProjeto#/default.cfm">Ininio</a></li>
                                 <li><a class="nav-link" href="#application.nomeProjeto#/pages/alunos/alunos.cfm">Alunos</a></li>
                                 <li><a class="nav-link" href="#application.nomeProjeto#/pages/alunos/listaAlunos.cfm">Lista de alunos</a></li>
-                                <li><a class="nav-link" href="#application.nomeProjeto#/pages/professores/professores.cfm"> Professores</a></li>                                
+                                <li><a class="nav-link" href="#application.nomeProjeto#/pages/professores/professores.cfm"> Professores</a></li>
+                                <li><a class="nav-link" href="#application.nomeProjeto#/pages/professores/listarProfessor.cfm">Lista de professores</a></li> 
                             </cfoutput>              
                         </div>
                     </div>

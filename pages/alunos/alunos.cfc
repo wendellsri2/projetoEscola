@@ -129,10 +129,8 @@
                 DELETE FROM tb_alunos
                 WHERE
                     ID_ALUNO = <cfqueryparam cfsqltype="cf_sql_numeric" value="#arguments.idAluno#">                    
-            </cfquery>
-            
-    </cffunction>    
-
+            </cfquery>            
+    </cffunction>
 </cfcomponent>
 
 

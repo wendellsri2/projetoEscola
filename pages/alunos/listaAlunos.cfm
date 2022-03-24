@@ -22,38 +22,37 @@
                     method="post"
                     action="">
                     <div id="pai">
-                    <div id="div1" class="col-md-6">
-                        <input class="form-control mr-sm-2"
-                               type="text" 
-                               aria-label="text"
-                               placeholder="Digite o nome" 
-                               id="cNome"
-                               name="cNome">
+                        <div id="div1" class="col-md-6">
+                            <input class="form-control mr-sm-2"
+                                type="text" 
+                                aria-label="text"
+                                placeholder="Digite o nome" 
+                                id="cNome"
+                                name="cNome">
+                        </div>
+                        <div id="div2" class="col-md-6">
+                            <input class="form-control mr-sm-2"
+                                type="numeric" 
+                                aria-label="date"
+                                placeholder="Digite a data" 
+                                id="cAnoNascimento"
+                                name="cAnoNascimento"
+                                maxlength="4">
+                        </div>
+                        <div id="div3" class="col-md-6">
+                            <input class="form-control mr-sm-2"
+                                type="text" 
+                                aria-label="text"
+                                placeholder="Digite a data" 
+                                id="cIntervalo"
+                                name="cIntervalo">
+                        </div>
+                        <button type="button" 
+                                id="buscar-aluno" 
+                                class="btn btn-primary col-md-6">Buscar
+                        </button>
                     </div>
-                    <div id="div2" class="col-md-6">
-                        <input class="form-control mr-sm-2"
-                               type="numeric" 
-                               aria-label="date"
-                               placeholder="Digite a data" 
-                               id="cAnoNascimento"
-                               name="cAnoNascimento"
-                               maxlength="4">
-                    </div>
-                    <div id="div3" class="col-md-6">
-                        <input class="form-control mr-sm-2"
-                               type="text" 
-                               aria-label="text"
-                               placeholder="Digite a data" 
-                               id="cIntervalo"
-                               name="cIntervalo">
-                    </div>
-                    <button 
-                        type="button" 
-                        id="buscar-aluno" 
-                        class="btn btn-primary col-md-6">Buscar
-                    </button>
                 </form>
-                </div>
             </div>
         </nav>
         <div id="tabela-aluno"></div>

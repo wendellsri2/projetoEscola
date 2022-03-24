@@ -18,12 +18,37 @@
                       method="post"
                       action="">
                       <div id="pai">
-                        <div>
-                            <input class="col">
-                        </div>
+                            <div id="div1" class="col-md-6">
+                                <input class="form-control mr-sm-2"
+                                    type="text"
+                                    arial-label="text"
+                                    planceholder="Digite o Nome"
+                                    id="cNome"
+                                    nome="cNome">
+                            </div>
+                            <div id="div2" class="col-md-6">
+                                <input class="form-control mr-sm-2"
+                                    type="text"
+                                    arial-label="text"
+                                    placeholder="Digite o Nome"
+                                    id="cAnoNascimento"
+                                    name="cAnoNascimente">
+                            </div>
+                            <div id="div3" class="col-md-6">
+                                <input class="form-control mr-sm-2"
+                                    type="text"
+                                    arial-label="text"
+                                    placeholder="Digite o Nome"
+                                    id="cIntervalo"
+                                    name="cIntervalo">
+                            </div>
+                            <button type="button"
+                                    id="buscar-professor"
+                                    class="btn btn-primary">
+                            </button>                      
                       </div>
                 </form>
-            </div>
         </nav>
+        <div id="tabela-professor"></div>
     </section>
 </main>
