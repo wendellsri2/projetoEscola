@@ -1,16 +1,15 @@
-    <!--- caminho do css --->
-    <cfoutput>
-        <link rel="stylesheet" type="text/css" href="#application.layout.css#/tabelas.css">
-    </cfoutput> 
+<!--- caminho do css --->
+<cfoutput>
+    <link rel="stylesheet" type="text/css" href="#application.layout.css#/tabelas.css">
+</cfoutput> 
     
-    <!--- referencia ao componete deletar aluno --->
-    <cfset variables.qDeleteAluno = createObject("component","alunos").listarAlunos(
-        idAluno: url.idDelAluno
-    )>
-    
+<!--- referencia ao componete deletar aluno --->
+<cfset variables.qDeleteAluno = createObject("component","alunos").listarAlunos(
+    idAluno: url.idDelAluno
+)>    
     <cfoutput query="variables.qDeleteAluno">
         <section class="container">
-            <h2 id="titulo-form">Deletar dados aluno</h2>
+            <h2 id="titulo-form">Deletar os dados aluno</h2>
             <ul id="mensagens-erro"></ul>
             <form id="form-aluno" 
                   action="#application.nomeProjeto#/pages/alunos/act_deletAluno.cfm" method="Post">
@@ -37,13 +36,12 @@
                 <!--- Endereço --->
                 <div class="grupo">
                     <label for="endereço"> Endereço:</label>
-                    <input 
-                        type="text"
-                        id="cEndereco" 
-                        name="cEndereco"
-                        placeholder="digite o Endereco"
-                        class="campo4"
-                        value="#ENDERECO#"
+                    <input type="text"
+                           id="cEndereco" 
+                           name="cEndereco"
+                           placeholder="digite o Endereco"
+                           class="campo4"
+                           value="#ENDERECO#"
                         >
                 </div>
     
