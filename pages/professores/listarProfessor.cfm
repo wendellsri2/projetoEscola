@@ -19,7 +19,7 @@
                       action="">
                       <div id="pai">
                         <div>
-                            <input class="col"
+                            <input class="col">
                         </div>
                       </div>
                 </form>
